@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    padding: 0 10px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    width: 300px;
+    text-decoration: underline;
+    justify-content: space-around;
+}
+
+header nav li {
+    list-style: none;
+}
+
+header nav li a {
+    color: seashell;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1fjuusb*_ga*OTE2NDcxNTMzOS4xNjYzNTU1MzEz*_ga_3LRZM6TM9L*MTY3MzAyNzA5NS4xMzUuMS4xNjczMDMwMTczLjQzLjAuMA..");
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.banner div {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.banner div > * {
+    margin: 12px;
+}
+
+#middlehead {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.middle {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 985px;
+    justify-content: center;
+}
+
+.middle div {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12px 48px;
+}
+
+.middle div img {
+    height: 200px;
+    width: 300px;
+}
+
+.middle div h3 {
+    margin: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15gn0iy*_ga*OTE2NDcxNTMzOS4xNjYzNTU1MzEz*_ga_3LRZM6TM9L*MTY3MzAyNzA5NS4xMzUuMS4xNjczMDMwMTczLjQzLjAuMA..");
+    margin: 48px auto;
+    height: 500px;
+}
+
+.locations div {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations div > * {
+    margin: 24px;
+    position: relative;
+}
