@@ -116,3 +116,10 @@ header nav li a {
     margin: 24px;
     position: relative;
 }
+
+@media screen and (max-width: 450px) {
+    .locations {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
