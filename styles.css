@@ -96,6 +96,8 @@ header nav li a {
     justify-content: center;
     align-items: center;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*15gn0iy*_ga*OTE2NDcxNTMzOS4xNjYzNTU1MzEz*_ga_3LRZM6TM9L*MTY3MzAyNzA5NS4xMzUuMS4xNjczMDMwMTczLjQzLjAuMA..");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 48px auto;
     height: 500px;
 }
